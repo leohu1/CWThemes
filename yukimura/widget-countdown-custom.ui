@@ -38,7 +38,6 @@
     <font>
      <family>Microsoft YaHei UI</family>
      <pointsize>14</pointsize>
-     <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
@@ -50,10 +49,10 @@ font-weight: bold;</string>
     <string>距离 中考 还有</string>
    </property>
    <property name="textFormat">
-    <enum>Qt::PlainText</enum>
+    <enum>Qt::TextFormat::PlainText</enum>
    </property>
    <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="custom_countdown">
@@ -69,7 +68,6 @@ font-weight: bold;</string>
     <font>
      <family>Microsoft YaHei UI</family>
      <pointsize>22</pointsize>
-     <weight>75</weight>
      <bold>true</bold>
     </font>
    </property>
@@ -82,10 +80,10 @@ font-weight: bold</string>
     <string>300 天</string>
    </property>
    <property name="textFormat">
-    <enum>Qt::PlainText</enum>
+    <enum>Qt::TextFormat::PlainText</enum>
    </property>
    <property name="alignment">
-    <set>Qt::AlignCenter</set>
+    <set>Qt::AlignmentFlag::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="backgnd">
@@ -98,7 +96,7 @@ font-weight: bold</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(255, 225, 245, 255), stop:1 rgba(255, 255, 255, 255));
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:0 rgba(205, 205, 255, 255), stop:1 rgba(255, 255, 255, 255));
 border-radius: 8px</string>
    </property>
    <property name="text">
